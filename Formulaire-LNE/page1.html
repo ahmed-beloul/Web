@@ -1,0 +1,46 @@
+<h1>FORMULAIRE VERIF </h1>
+<link rel="stylesheet" type="text/css" href="style.css">
+        <form action="page1.php" method="post">
+            <div class="c100">
+                <h3>
+                    B1 : Securite de la donnee
+                </h3>
+                <h4>
+                    la donnee est-elle protegee contre le data poisoning ?
+                </h4>
+                <input type="radio" id="oui" name="datapoisoning" value="oui">
+                <label for="oui">oui</label>
+                <input type="radio" id="non" name="datapoisoning" value="non">
+                <label for="non">non</label>
+                <input type="radio" id="non applicable" name="datapoisoning" value="non-applicable">
+                <label for="non applicable">non applicable</label>
+                <h4>Commentaire :</h4>
+
+                <textarea name="q1comm" id="q1comm" rows="6" cols="40"></textarea>
+                <h4>
+                    la donnee est-elle sauvegardee dans un environnement securise ?
+                </h4>
+                <input type="radio" id="oui" name="environnement" value="oui">
+                <label for="oui">oui</label>
+                <input type="radio" id="non" name="environnement" value="non">
+                <label for="non">non</label>
+                <h3>
+                    B2 : Plan de collecte
+                </h3>
+                <h4>
+                    Le LNE est-il en charge du plan de collecte ?
+                </h4>
+                <input type="radio" id="oui" name="collecte" value="oui">
+                <label for="oui">oui</label>
+                <input type="radio" id="non" name="collecte" value="non">
+                <label for="non">non</label>
+            </div>
+            
+            
+            <div class="c100" id="submit">
+                <input type="submit" value="Suivant">
+            </div>
+            
+            
+        </form>
+        
